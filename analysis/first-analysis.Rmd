@@ -1,0 +1,31 @@
+---
+title: "Protein Olink Data CVOVID-19 PBMC"
+fontsize: 8pt
+output: 
+  beamer_presentation:
+    includes:
+      in_header: ~jordan/header_pagenrs.tex
+date: '`r format(Sys.time(), "%d %B, %Y")`' 
+#author: Jordan Ramilowski, Tatsuma Ban, Akira Nishiyama, Tomohiko Tamura
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(magrittr)
+library(tidyverse)
+library(data.table)
+library(viridis)
+library("msigdbr")
+library(knitr)
+library(formattable)
+library(DT)
+library(Seurat)
+library(scales)
+library(ggpubr)
+```
+
+# Intro
+
+-   Protein Olink Data
+-   39 Patients
+-   Looking at the time of admission to the hospital
