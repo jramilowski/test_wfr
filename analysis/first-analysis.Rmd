@@ -29,3 +29,33 @@ library(ggpubr)
 -   Protein Olink Data
 -   39 Patients
 -   Looking at the time of admission to the hospital
+
+# Proteins Up-regulated in COVID-19
+
+```{r out.height = "240px", out.width='240px', fig.align="center", echo=F}
+knitr::include_graphics("/Users/jordan/p1.pdf")
+```
+
+# Proteins Down-regulated in COVID-19
+
+```{r out.height = "240px", out.width='240px', fig.align="center", echo=F}
+knitr::include_graphics("/Users/jordan/p2.pdf")
+```
+
+# Pathways Dysregulated: Critical vs Mild
+
+```{r out.height = "160px", out.width='240px', fig.align="center", echo=F}
+knitr::include_graphics("/Users/jordan/p3.pdf")
+```
+
+# Pathways Dysregulated: Severe vs Mild
+
+```{r out.height = "160px", out.width='240px', fig.align="center", echo=F}
+knitr::include_graphics("/Users/jordan/p4.pdf")
+```
+
+# Pathways Dysregulated: Critical vs Severe
+
+```{r out.height = "160px", out.width='240px', fig.align="center", echo=F}
+knitr::include_graphics("/Users/jordan/p5.pdf")
+```
